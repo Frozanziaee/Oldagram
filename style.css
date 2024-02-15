@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+    color: dark;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+header {
+    position: relative;
+    width: 375px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    border-bottom: 1px solid #c6c6c6;
+   
+}
+.logo {
+    width: 127px;
+    height: 33.02px;
+}
+.user {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%; 
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 375px;
+    margin: 10px auto;
+}
+.first-post{
+    display: flex;
+    gap: 8px;
+    justify-content: start;
+    align-items: start;
+    color: #000000;
+}
+.avatar-vangogh{
+    margin-bottom: 0;
+}
+h2 {
+    font-size: 13px;
+    font-weight: 700;
+    margin: 2px 0 0 0;
+}
+h4 {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 0;
+}
+.post{
+    width: 375px;
+    height: 375px;
+}
+.ican {
+    padding: 8px 4px;
+    margin-bottom: 0;
+    width: 23.3px;
+    height: 22.13px;
+}
+
+.ican:hover {
+    cursor: pointer;
+}
+
+p{
+    margin-top: 0;
+    font-size: 13px;
+   
+}
+span {
+    margin-right: 3px;
+    font-weight: 900;
+}
+.username{
+    width: 375px;
+    padding-bottom: 10px;
+    border-bottom: 25px solid #EDEDED;
+    margin-left: 0;
+}
+
+
